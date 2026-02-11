@@ -28,17 +28,16 @@ workflows:
             echo "Podfile не найден, пропускаем установку CocoaPods"
           fi
       
-      # Шаг 2: Настройка подписания кода
+      # Шаг 2: Настройка подписания кода (ИСПРАВЛЕНО)
       - name: Set up code signing
         script: |
           cd $CM_BUILD_DIR
           echo "Настраиваем подписание кода..."
           xcode-project use-profiles
           
-          # Дополнительная проверка настроек проекта
+          # Дополнительная проверка настроек проекта (без несуществующей команды)
           echo "Проверяем настройки проекта..."
-          xcode-project update-project-settings \
-            --bundle-id "$BUNDLE_ID"
+          echo "✅ Подписание кода настроено для Bundle ID: $BUNDLE_ID"
       
       # Шаг 3: Установка номера сборки
       - name: Set build number
