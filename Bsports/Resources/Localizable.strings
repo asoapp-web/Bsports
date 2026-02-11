@@ -1,0 +1,174 @@
+/* Common */
+"common.loading" = "Loading...";
+"common.error" = "Error";
+"common.retry" = "Retry";
+"common.cancel" = "Cancel";
+"common.done" = "Done";
+"common.share" = "Share";
+"common.close" = "Close";
+"common.refresh" = "Refresh";
+"common.search" = "Search";
+"common.filter" = "Filter";
+"common.clear" = "Clear";
+"common.apply" = "Apply";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.add" = "Add";
+"common.remove" = "Remove";
+
+/* Navigation */
+"nav.matches" = "Matches";
+"nav.leagues" = "Leagues";
+"nav.teams" = "Teams";
+"nav.stadiums" = "Stadiums";
+"nav.favorites" = "Favorites";
+"nav.statistics" = "Statistics";
+"nav.settings" = "Settings";
+"nav.more" = "More";
+
+/* Matches */
+"matches.title" = "Matches";
+"matches.today" = "Today";
+"matches.upcoming" = "Upcoming";
+"matches.recent" = "Recent";
+"matches.filter.myLeagues" = "My Leagues Only";
+"matches.filter.dateRange" = "Date Range";
+"matches.filter.selectLeagues" = "Select Leagues";
+"matches.detail.markWatched" = "Mark as Watched";
+"matches.detail.addToFavorites" = "Add League to Favorites";
+"matches.detail.viewStandings" = "View Standings";
+"matches.detail.attendance" = "Attendance";
+"matches.detail.venue" = "Venue";
+"matches.empty.noMatches" = "No matches found";
+"matches.empty.tryFilters" = "Try adjusting your filters";
+"matches.status.scheduled" = "Scheduled";
+"matches.status.live" = "Live";
+"matches.status.finished" = "Finished";
+"matches.status.postponed" = "Postponed";
+"matches.status.cancelled" = "Cancelled";
+
+/* Leagues */
+"leagues.title" = "Leagues";
+"leagues.detail.standings" = "Standings";
+"leagues.detail.fixtures" = "Fixtures";
+"leagues.detail.recent" = "Recent";
+"leagues.detail.upcoming" = "Upcoming";
+"leagues.detail.addFavorite" = "Add to Favorites";
+"leagues.detail.removeFavorite" = "Remove from Favorites";
+"leagues.empty.noResults" = "No leagues found";
+"leagues.empty.trySearch" = "Try a different search";
+"standings.rank" = "Rank";
+"standings.team" = "Team";
+"standings.played" = "P";
+"standings.won" = "W";
+"standings.draw" = "D";
+"standings.lost" = "L";
+"standings.goalsFor" = "GF";
+"standings.goalsAgainst" = "GA";
+"standings.goalDifference" = "GD";
+"standings.points" = "Pts";
+"standings.form" = "Form";
+
+/* Teams */
+"teams.title" = "Teams";
+"teams.detail.recent" = "Recent Matches";
+"teams.detail.upcoming" = "Upcoming Matches";
+"teams.detail.leagues" = "Leagues";
+"teams.detail.founded" = "Founded";
+"teams.detail.country" = "Country";
+"teams.detail.stadium" = "Home Stadium";
+"teams.empty.noResults" = "No teams found";
+
+/* Stadiums */
+"stadiums.title" = "Stadiums";
+"stadiums.detail.capacity" = "Capacity";
+"stadiums.detail.upcomingMatches" = "Upcoming Matches";
+"stadiums.detail.recentAttendance" = "Recent Attendance";
+"stadiums.detail.averageAttendance" = "Average Attendance";
+"stadiums.detail.averageFill" = "Average Fill";
+"stadiums.detail.full" = "full";
+"stadiums.empty.noResults" = "No stadiums found";
+
+/* Favorites */
+"favorites.title" = "Favorites";
+"favorites.leagues" = "Leagues";
+"favorites.teams" = "Teams";
+"favorites.empty.leagues" = "No favorite leagues";
+"favorites.empty.teams" = "No favorite teams";
+"favorites.empty.browse" = "Browse and add favorites";
+"favorites.remove" = "Remove";
+"favorites.clearAll" = "Clear All";
+"favorites.clearAll.confirm" = "Are you sure you want to remove all favorites?";
+
+/* Statistics */
+"statistics.title" = "Statistics";
+"statistics.watchedMatches" = "Watched Matches";
+"statistics.favoriteTeams" = "Favorite Teams";
+"statistics.favoriteLeagues" = "Favorite Leagues";
+"statistics.totalWatched" = "Total Watched";
+"statistics.byTeam" = "Matches Watched by Team";
+"statistics.byLeague" = "Matches Watched by League";
+"statistics.attendance.title" = "Stadium Attendance";
+"statistics.attendance.matchesWithData" = "Matches with attendance data";
+"statistics.attendance.average" = "Average attendance";
+"statistics.attendance.averageFill" = "Average stadium fill";
+"statistics.empty.title" = "No statistics yet";
+"statistics.empty.message" = "Mark matches as watched to see your stats";
+"statistics.empty.browse" = "Browse Matches";
+"statistics.chart.byMonth" = "By Month";
+"statistics.chart.byLeague" = "By League";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.preferences" = "Preferences";
+"settings.preferences.haptics" = "Haptic Feedback";
+"settings.preferences.defaultFilter" = "Default Filter";
+"settings.preferences.defaultFilter.all" = "All Leagues";
+"settings.preferences.defaultFilter.favorites" = "My Favorite Leagues";
+"settings.data" = "Data";
+"settings.data.lastSync" = "Last Sync";
+"settings.data.apiRequests" = "API Requests Today";
+"settings.data.clearCache" = "Clear Cache";
+"settings.data.clearCache.confirm.title" = "Clear Cache?";
+"settings.data.clearCache.confirm.message" = "This will remove all cached data. You'll need an internet connection to reload data.";
+"settings.data.clearCache.confirm.clear" = "Clear";
+"settings.about" = "About";
+"settings.about.version" = "App Version";
+"settings.about.privacy" = "Privacy Policy";
+"settings.about.terms" = "Terms of Service";
+"settings.about.support" = "Contact Support";
+"settings.legal" = "Legal";
+"settings.legal.attribution" = "Data provided by API-Football";
+
+/* Onboarding */
+"onboarding.welcome.title" = "Welcome to Bsports";
+"onboarding.welcome.subtitle" = "Your ultimate football companion";
+"onboarding.welcome.getStarted" = "Get Started";
+"onboarding.features.follow" = "Follow Matches";
+"onboarding.features.follow.description" = "Track fixtures, scores, and schedules";
+"onboarding.features.favorites" = "Save Favorites";
+"onboarding.features.favorites.description" = "Quick access to your teams and leagues";
+"onboarding.features.stats" = "Your Stats";
+"onboarding.features.stats.description" = "Track watched matches and personal insights";
+"onboarding.features.continue" = "Continue";
+"onboarding.ready.title" = "Ready to explore?";
+"onboarding.ready.letsGo" = "Let's Go";
+"onboarding.skip" = "Skip";
+
+/* Errors */
+"error.network.title" = "Network Error";
+"error.network.message" = "Unable to connect. Please check your internet connection.";
+"error.apiLimit.title" = "Daily Limit Reached";
+"error.apiLimit.message" = "Daily API limit reached. Data will refresh tomorrow.";
+"error.apiLimit.lastUpdated" = "Last updated: %@";
+"error.unknown.title" = "Something went wrong";
+"error.unknown.message" = "Please try again later.";
+"error.cache.title" = "No Cached Data";
+"error.cache.message" = "No cached data available. Please connect to the internet.";
+
+/* Alerts */
+"alert.confirm" = "Confirm";
+"alert.cancel" = "Cancel";
+"alert.delete" = "Delete";
+"alert.ok" = "OK";
